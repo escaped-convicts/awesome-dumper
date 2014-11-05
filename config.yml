@@ -1,0 +1,19 @@
+host: example.org
+port: 22
+username: user
+password: password
+mysqldump_path: /bin/mysqldump
+pv_path: /bin/pv
+gzip_path: /bin/gzip
+db_host: rdbms.example.org
+db_username: root
+db_password:
+database: mysql
+drop_after: true
+only:
+  - only
+  - these
+  - tables
+use_winscp: false
+winscp_path: "C:/Program Files/WinSCP/winscp.com"
+hostkey: "ssh-rsa 2048 00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00"
